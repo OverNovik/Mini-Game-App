@@ -6,8 +6,8 @@ const NumberContainer = ({ children }) => {
     <View style={styles.container}>
       <Text style={styles.numberText}>{children}</Text>
     </View>
-  )
-}
+  );
+};
 
 export default NumberContainer;
 
@@ -26,4 +26,4 @@ const styles = StyleSheet.create({
     fontSize: 36,
     fontWeight: "bold",
   },
-})
+});
